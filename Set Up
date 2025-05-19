@@ -1,0 +1,7 @@
+# Clone the repo
+git clone https://github.com/your-username/mindmate.git
+cd mindmate
+
+# Create the folder structure
+mkdir -p app src data model
+touch app/streamlit_app.py src/sentiment.py src/classifier.py src/visualizer.py data/user_entries.csv model/.gitkeep requirements.txt README.md
